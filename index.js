@@ -52,7 +52,7 @@ class Register {
             } else if (name.length < 10) {
                 reject("Nama harus lebih dari 10 kata");
             } else if (age < 25) {
-                reject("Umur Minimal 25 tahun Your have to be at least 25 years old.");
+                reject("Umur Minimal 25 tahun.");
             } else if (allowance < 100000) {
                 reject("Uang sangu harus lebih dari 100.000");
             } else if (allowance > 1000000) {
